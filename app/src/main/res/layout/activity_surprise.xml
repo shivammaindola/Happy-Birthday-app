@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.luolc.emojirain.EmojiRainLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".surprise"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/p1">
+    <TextView
+        android:id="@+id/mywidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="****HAPPY BIRTHDAY DHEERAJ**** I never needed a best friend because I always had you, brother******HAPPY BIRTHDAY BRO***** " />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:padding="14dp"
+        android:layout_marginTop="42dp"
+        android:textStyle="italic"
+        android:text="Gaana pura sunna....\n\nBro sorry yr me ise perfect ni bna ska jaisa banana chahra tha, errors or timelimit ko dekhkar itna hi bn paya and I hope ye jitna bhi hai bhura nhi hai....\nTujhe aaj pta lag gya hoga Party lene k liye aadmi kya kya kr skta hai, You know I've 3 best friend till now and you are one of them(Future me tere liye ye complement hoga)... from the first yr we were like joey and chandler, me and you cracked jokes on others and than both laughed(those moment were the best) but now you've gone like joey did to chandler in S2e16 but after sometime joey realized that i should go back....\n\nBut It's okay kuch achieve karne ke liye kuch khona bhi padta h...I mean GATE. \nGaana acha hai na?? mujhe to mst laga\nChaar line humari is dosti ke naam(jo high hoke bhi repeat hogi)-\n\nKaash phir milne ki wajah mil jaye\nSath jitna bhi bitaya wo pal mil jaye\nChalo apni apni aankhe band kar le\nKya pta khwabon mein gujra huwa kal mil jaye. \n\nAll the best for your birthday. May you live to be atleast 95 and die happy and satisfied in a warm bed, shot by a jealous wife :)"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Say Thankyou to me"
+                android:textStyle="bold"
+                android:background="#fff"
+                android:textSize="16sp"
+                android:id="@+id/thankyou_button"
+                style="@style/Widget.Shrine.Button.TextButton"/>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</com.luolc.emojirain.EmojiRainLayout>

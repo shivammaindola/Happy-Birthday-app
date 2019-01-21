@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".bday_card">
+    <item
+        android:id="@+id/reset"
+        android:title="Reset"
+        app:showAsAction="always" />
+</menu>
